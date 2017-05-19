@@ -72,7 +72,7 @@ public class contacts extends HttpServlet {
             Iterator iterator = set.iterator();
             while(iterator.hasNext()) {
                Map.Entry mentry = (Map.Entry)iterator.next();
-               out.print("Name: "+ mentry.getKey() + " & Number is: "+ mentry.getValue());
+               out.print("Name: "+ mentry.getKey() + " & Number is: "+ mentry.getValue() + "<br>");
             }
         }
         
